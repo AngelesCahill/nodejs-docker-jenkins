@@ -1,0 +1,17 @@
+{
+  "name": "011-desafio-modulo-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
