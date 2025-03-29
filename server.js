@@ -26,6 +26,10 @@ app.get("/tasks/:id", (req, res) => {
   res.json(task);
 });
 
+// Exportar app para pruebas
+export default app;
+
+
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });

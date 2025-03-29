@@ -10,6 +10,20 @@ pipeline {
  checkout scm
  }
  }
+ stage('Check Node.js Version') {
+ steps {
+ script {
+ bat 'node -v'
+ }
+ }
+ }
+ stage('Verify Dependencies') {
+ steps {
+ script {
+ bat 'npm list'
+ }
+ }
+ }
  stage('Build') {
  steps {
  script {
