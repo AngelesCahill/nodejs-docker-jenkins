@@ -40,3 +40,9 @@ https://github.com/AngelesCahill/nodejs-docker-jenkins.git
         "lint": "eslint ."
     },
 ### Creamos archivo jenkinFile
+### Configuramos jest en archivo propio: jest.config.js:
+export default {
+  transform: {},
+  testEnvironment: "node",
+};
+#### rm -rf node_modules package-lock.json // para reinstalar node_modules y package-lock.json
