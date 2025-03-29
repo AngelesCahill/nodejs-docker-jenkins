@@ -20,3 +20,23 @@ https://github.com/AngelesCahill/nodejs-docker-jenkins.git
     Muestra una tarea (en este caso con id = 1)
 
 # Jenkins
+
+### Creamos carpeta test y dentro de ella api.test.js
+### Instalamos eslint, jest y supertest como devDependencies
+ npm i -D jest supertest eslint
+### Agregamos en el package.json
+    "jest": {
+    "testEnvironment": "node" // indica que trabajaremos con node
+    },
+    "engines": {
+        "node": ">=18"  // indica que tenemos instalado un node con una version igual o mayor que 18
+    },
+
+    Y creamos los scripts que usaremos: 
+      "scripts": {
+        "start": "node server.js",
+        "build": "echo 'No hay proceso de compilación en este proyecto'",
+        "test": "jest --coverage --forceExit",
+        "lint": "eslint ."
+    },
+### Creamos archivo jenkinFile
