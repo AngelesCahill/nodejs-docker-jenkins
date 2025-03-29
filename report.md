@@ -1,19 +1,19 @@
-Docker:
-Crear imagen: $ docker build -t 011-desafio-modulo-8 .
+# Docker:
+## Crear imagen: $ docker build -t 011-desafio-modulo-8 .
 
-Problema-1:
-Angeles@DESKTOP-SE5R1LF MINGW64 /c/backend-curso/desafios/011-desafio-modulo-8 (main)
-$ docker build -t 011-desafio-modulo-8
-ERROR: "docker buildx build" requires exactly 1 argument.
-See 'docker buildx build --help'.
+## Problema-1:
+### Angeles@DESKTOP-SE5R1LF MINGW64 /c/backend-curso/desafios/011-desafio-modulo-8 (main)
+### $ docker build -t 011-desafio-modulo-8
+### ERROR: "docker buildx build" requires exactly 1 argument.
+### See 'docker buildx build --help'.
 
-Usage:  docker buildx build [OPTIONS] PATH | URL | -       
+### Usage:  docker buildx build [OPTIONS] PATH | URL | -       
 
-Start a build
+### Start a build
 
-Solución-1: abrir Docker Desktop para que esté funcionando en mi computador
+## Solución-1: abrir Docker Desktop para que esté funcionando en mi computador
 
-JENKINS REPORT
+# JENKINS REPORT
 
 Started by user Angeles Cahill
 Obtained Jenkinsfile from git https://github.com/AngelesCahill/nodejs-docker-jenkins
@@ -192,7 +192,9 @@ stage('Deploy') {
         }
     }
 }
-El flag /B asegura que el proceso se ejecute en segundo plano y no bloquee el pipeline.
+#### El flag /B asegura que el proceso se ejecute en segundo plano y no bloquee el pipeline.
+
+## Corriendo jenkins nuevamente: 
 
 Started by user Angeles Cahill
 Obtained Jenkinsfile from git https://github.com/AngelesCahill/nodejs-docker-jenkins
@@ -337,16 +339,17 @@ C:\ProgramData\Jenkins\.jenkins\workspace\pipelineDesafioM8>start /B npm start
 Finished: SUCCESS
 
 
-RESUME DE COMMITS EN GITHUB:
-corrigiendo error en archivo jenkinsfile, una llave
-cambio en stage deploy para que el proceso se ejecute en segundo plano
-cambiando version de supertest
-cambios configuracion jest
-cambios para configurar jest
-en archivo Jenkinsfile se cambian los sh por bat
-se mueve archivo Jenkinsfile
-Cambio linea 20 de jenkinsfile
-cambios en archivo jenkinsfile
-subiendo archivos y cambios jenkins y cambios en readme
-subiendo archivos docker
-Primer commit
+## RESUME DE COMMITS EN GITHUB:
+### subiendo cambios en REPORT
+### corrigiendo error en archivo jenkinsfile, una llave
+### cambio en stage deploy para que el proceso se ejecute en segundo plano
+### cambiando version de supertest
+### cambios configuracion jest
+### cambios para configurar jest
+### en archivo Jenkinsfile se cambian los sh por bat
+### se mueve archivo Jenkinsfile
+### Cambio linea 20 de jenkinsfile
+### cambios en archivo jenkinsfile
+### subiendo archivos y cambios jenkins y cambios en readme
+### subiendo archivos docker
+### Primer commit
